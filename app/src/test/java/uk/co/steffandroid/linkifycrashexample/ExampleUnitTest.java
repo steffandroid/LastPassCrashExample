@@ -1,4 +1,4 @@
-package uk.co.steffandroid.lastpasscrashexample;
+package uk.co.steffandroid.linkifycrashexample;
 
 import org.junit.Test;
 

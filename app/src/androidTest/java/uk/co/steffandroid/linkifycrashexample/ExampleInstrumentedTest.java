@@ -1,4 +1,4 @@
-package uk.co.steffandroid.lastpasscrashexample;
+package uk.co.steffandroid.linkifycrashexample;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("uk.co.steffandroid.lastpasscrashexample", appContext.getPackageName());
+        assertEquals("uk.co.steffandroid.linkifycrashexample", appContext.getPackageName());
     }
 }
