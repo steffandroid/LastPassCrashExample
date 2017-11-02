@@ -1,28 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="16dp"
     tools:context="uk.co.steffandroid.linkifycrashexample.MainActivity">
 
-    <EditText
-        android:id="@+id/username"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Username" />
-
-    <EditText
-        android:id="@+id/password"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Password" />
-
     <TextView
-        android:id="@+id/forgot_password"
+        android:id="@+id/hello_world"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Forgot password?" />
+        android:layout_gravity="center"
+        android:text="google.com" />
 
-</LinearLayout>
+</FrameLayout>

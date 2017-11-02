@@ -1,7 +1,7 @@
 package uk.co.steffandroid.linkifycrashexample;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.text.util.Linkify;
 import android.widget.TextView;
 
@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        TextView textView = findViewById(R.id.forgot_password);
-        Linkify.addLinks(textView, Pattern.compile("^*.*$"), "https://my.vanmoof.com/password/email/", null, (matcher, s) -> "");
+        TextView textView = findViewById(R.id.hello_world);
+        Linkify.addLinks(textView, Pattern.compile(".*"), "https://");
     }
 }
